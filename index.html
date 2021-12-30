@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>社保计算器</title>
+		<!--
+		width=device-width表示宽度和设备同宽
+		initial-scale=1表示屏幕有多大就显示多大
+		minimum-scale=1表示最小允许的缩放比例
+		maximum-scale=1表示最大允许的缩放比例
+		user-scalable=no 表示网页不可以伸缩， 值为yes表示可以伸缩
+		-->
+		<meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" >
+		<!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	    <script>
+		    $(function(){
+				// 给按钮绑定一个点击事件
+				$("#btn").click(function(){
+					// 获取输入的工资的值
+					let sal = $("#sal").val()
+					// typeof sal 表示判断sal是什么数据类型，这里的输入sal是string类型
+					//alert(typeof sal) 
+				
+					if(sal == ""||sal == null||sal.length==0){
+						alert("请输入工资")
+					}else{
+						// 将字符串类型转换成为整数
+						sal = parseInt(sal)
+						// 计算个人养老保险缴费
+						let old1 = sal * 0.08
+						// 设置到id为old1的单元格
+						$("#old1").text(old1)
+						// 计算公司养老保险缴费
+						let old2 = sal * 0.2
+						$("#old2").text(old2)
+						
+						// 计算个人医疗保险缴费
+						let yl1 = sal*0.02
+						$("#yl1").text(yl1)
+						// 计算公司医疗保险缴费
+						let yl2 = sal * 0.06
+						$("#yl2").text(yl2)
+						
+						// 计算个人失业保险缴费
+						let sy1 = sal * 0.005
+						$("#sy1").text(sy1)
+						// 计算公司失业保险缴费
+						let sy2 = sal * 0.015
+						$("#sy2").text(sy2)
+						
+						// 计算公司工伤保险缴费
+						let gs = sal * 0.005
+						$("#gs").text(gs)
+						
+						// 计算公司生育保险缴费
+						let sy = sal * 0.008
+						$("#sy").text(sy)
+						
+						// 计算个人公积金缴费
+						let gjj1 = sal * 0.12
+						$("#gjj1").text(gjj1)
+						
+						// 计算公司公积金缴费
+						let gjj2 = sal * 0.12
+						$("#gjj2").text(gjj2)
+						
+						// 计算个人合计
+						let hj1 = old1 + yl1 + sy1 + gjj1
+						$("#hj1").text(hj1)
+						
+						// 计算公司合计
+						let hj2 = old2 + yl2 + sy2 + gs + sy + gjj2
+						$("#hj2").text(hj2)
+						
+						// 计算总额保险缴费
+						let ze = hj1 + hj2
+						$("#ze").text(ze)
+					}
+					
+				})
+			})
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<h3 class="text-danger text-center">社保计算器--Web版</h3>
+			<p class="text-center">太原工业学院&nbsp;&nbsp;电子系&nbsp;&nbsp;182027236&nbsp;&nbsp;圣月娥</p>
+			<div class="tableDiv container">
+				<table class="table table-bordered table-striped text-center">
+					<!-- 第一行 -->
+					<tr>
+						<td>工资</td>
+						<td colspan="3">
+							<input id="sal" type="text" class="form-control" name="sal" placeholder="请输入工资"/>
+						</td>
+						<td>
+							<button id="btn" class="btn btn-danger">计算</button>
+						</td>
+					</tr>
+					<!-- 第二行 -->
+					<tr>
+						<td class="bg-primary">险种</td>
+						<td class="bg-primary">个人%</td>
+						<td class="bg-primary">个人</td>
+						<td class="bg-primary">公司%</td>
+						<td class="bg-primary">公司</td>
+					</tr>
+					<tr>
+						<td>养老</td>
+						<td>8%</td>
+						<td id="old1"></td>
+						<td>20%</td>
+						<td id="old2"></td>
+					</tr>
+					<tr>
+						<td>医疗</td>
+						<td>2%</td>
+						<td id="yl1"></td>
+						<td>6%</td>
+						<td id="yl2"></td>
+					</tr>
+					<tr>
+						<td>失业</td>
+						<td>0.5%</td>
+						<td id="sy1"></td>
+						<td>1.5%</td>
+						<td id="sy2"></td>
+					</tr>
+					<tr>
+						<td>工伤</td>
+						<td></td>
+						<td></td>
+						<td>0.5%</td>
+						<td id="gs"></td>
+					</tr>
+					<tr>
+						<td>生育</td>
+						<td></td>
+						<td></td>
+						<td>0.8%</td>
+						<td id="sy"></td>
+					</tr>
+					<tr>
+						<td>公积金</td>
+						<td>12%</td>
+						<td id="gjj1"></td>
+						<td>12%</td>
+						<td id="gjj2"></td>
+					</tr>
+					<tr>
+						<td>合计</td>
+						<td>个人合计</td>
+						<td id="hj1"></td>
+						<td>公司合计</td>
+						<td id="hj2"></td>
+					</tr>
+					<!-- 最后一行 -->
+					<tr>
+						<td>总额</td>
+						<td id="ze" colspan="4" style="font-size: 15pt;color: darkblue;font-weight: 500;"></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
