@@ -20,6 +20,9 @@
         <module>RestTempalte1</module>
         <module>ConfigServer</module>
         <module>ConfigClient</module>
+        <module>ConfigServer</module>
+        <module>configserver1</module>
+        <module>configclient1</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

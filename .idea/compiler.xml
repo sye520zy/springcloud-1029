@@ -9,15 +9,17 @@
         <outputRelativeToContentRoot value="true" />
         <module name="ConfigServer" />
         <module name="zuul" />
-        <module name="consumer" />
-        <module name="feign" />
-        <module name="RestTempalte1" />
-        <module name="ribbon" />
-        <module name="hystrix" />
+        <module name="RestTemplateConsumer" />
         <module name="ConfigClient" />
+        <module name="RestTempalte1" />
+        <module name="configserver1" />
+        <module name="feign" />
+        <module name="hystrix" />
+        <module name="ribbon" />
+        <module name="configclient1" />
         <module name="EurekaClient" />
         <module name="eurekaserver" />
-        <module name="RestTemplateConsumer" />
+        <module name="consumer" />
       </profile>
     </annotationProcessing>
   </component>
@@ -28,6 +30,8 @@
       <module name="EurekaClient" options="-parameters" />
       <module name="RestTempalte1" options="-parameters" />
       <module name="RestTemplateConsumer" options="-parameters" />
+      <module name="configclient1" options="-parameters" />
+      <module name="configserver1" options="-parameters" />
       <module name="consumer" options="-parameters" />
       <module name="eurekaserver" options="-parameters" />
       <module name="feign" options="-parameters" />
