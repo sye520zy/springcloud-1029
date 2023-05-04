@@ -23,7 +23,7 @@ spring:
         git:
           uri: https://gitee.com/sye520zy/practise.git
           searchPaths: config
-          username: 47814724@qq.com
+          username: sye520zy
           password: sye520131
       label: master
 eureka:
