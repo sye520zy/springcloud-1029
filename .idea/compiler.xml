@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ConfigServer" />
+        <module name="zuul" />
+        <module name="consumer" />
+        <module name="feign" />
+        <module name="RestTempalte1" />
+        <module name="ribbon" />
+        <module name="hystrix" />
+        <module name="ConfigClient" />
+        <module name="EurekaClient" />
+        <module name="eurekaserver" />
+        <module name="RestTemplateConsumer" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ConfigClient" options="-parameters" />
+      <module name="ConfigServer" options="-parameters" />
+      <module name="EurekaClient" options="-parameters" />
+      <module name="RestTempalte1" options="-parameters" />
+      <module name="RestTemplateConsumer" options="-parameters" />
+      <module name="consumer" options="-parameters" />
+      <module name="eurekaserver" options="-parameters" />
+      <module name="feign" options="-parameters" />
+      <module name="hystrix" options="-parameters" />
+      <module name="ribbon" options="-parameters" />
+      <module name="springcloud-1029" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

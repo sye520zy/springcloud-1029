@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1eaface2-bce6-4d58-9d33-5d2da1d14157" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\idea_workspace\springboot_workspace2\springcloud-1029\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository" />
+        <option name="mavenHome" value="D:/tool/apache-maven-3.8.1" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="2PC2aT0XbmFrYzsa25cBtragBIZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="D:/git_repository" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yckj.controller" />
+      <recent name="com.yckj.entity" />
+      <recent name="com.yckj" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\idea_workspace\springboot_workspace2\springcloud-1029\RestTempalte1\src\main\resources" />
+      <recent name="D:\idea_workspace\springboot_workspace2\springcloud-1029\consumer\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ConfigServerApplication">
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ConfigServer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yckj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yckj.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="EurekaClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yckj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yckj.EurekaClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NativeConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ConfigClient" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yckj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yckj.NativeConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTemplateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="RestTempalte1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yckj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yckj.RestTemplateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestTemplateConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="RestTemplateConsumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yckj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yckj.RestTemplateConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NativeConfigClientApplication" />
+        <item itemvalue="Spring Boot.ConfigServerApplication" />
+        <item itemvalue="Spring Boot.RestTemplateApplication" />
+        <item itemvalue="Spring Boot.RestTemplateConsumerApplication" />
+        <item itemvalue="Spring Boot.EurekaClientApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1eaface2-bce6-4d58-9d33-5d2da1d14157" name="Default Changelist" comment="" />
+      <created>1682946806378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682946806378</updated>
+      <workItem from="1682946810045" duration="2021000" />
+      <workItem from="1683080232030" duration="11973000" />
+      <workItem from="1683161780246" duration="4703000" />
+      <workItem from="1683195824428" duration="4325000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="530" y="52" key="#com.intellij.ide.util.MemberChooser" timestamp="1683105746386">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="530" y="52" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1683105746386" />
+    <state x="276" y="0" key="CommitChangelistDialog2" timestamp="1683206263566">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="276" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1683206263566" />
+    <state x="499" y="113" key="FileChooserDialogImpl" timestamp="1683205413985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="113" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1683205413985" />
+    <state width="1483" height="239" key="GridCell.Tab.0.bottom" timestamp="1683206122212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="239" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1683206122212" />
+    <state width="1483" height="239" key="GridCell.Tab.0.center" timestamp="1683206122212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="239" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1683206122212" />
+    <state width="1483" height="239" key="GridCell.Tab.0.left" timestamp="1683206122211">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="239" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1683206122211" />
+    <state width="1483" height="239" key="GridCell.Tab.0.right" timestamp="1683206122212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="239" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1683206122212" />
+    <state width="1483" height="239" key="GridCell.Tab.1.bottom" timestamp="1683206122212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="239" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1683206122212" />
+    <state width="1483" height="239" key="GridCell.Tab.1.center" timestamp="1683206122212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="239" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1683206122212" />
+    <state width="1483" height="239" key="GridCell.Tab.1.left" timestamp="1683206122212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="239" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1683206122212" />
+    <state width="1483" height="239" key="GridCell.Tab.1.right" timestamp="1683206122212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1483" height="239" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1683206122212" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1683206095212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1683206095212" />
+    <state x="376" y="199" key="com.intellij.ide.util.TipDialog" timestamp="1683206139539">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="376" y="199" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1683206139539" />
+    <state x="505" y="311" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1683204868037">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="505" y="311" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1683204868037" />
+    <state x="0" y="50" key="new project wizard" timestamp="1683203551143">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="50" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1683203551143" />
+    <state x="561" y="158" key="svn.repositoryBrowser" timestamp="1683196982579">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="561" y="158" key="svn.repositoryBrowser/0.0.1536.824@0.0.1536.824" timestamp="1683196982579" />
+  </component>
+</project>
